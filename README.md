@@ -16,6 +16,8 @@
   <li>  File -> Import -> Maven -> Existing Maven Projects -> Browse Project from cloned location </li>
   <li>   Build maven project e.g mvn clean install </li>
   <li>   Run the project using  java -jar target/books-0.0.1-SNAPSHOT.jar  </li>
+  <li>  To run from eclipse, left clich run as  spring boot application  </li>
+  
   <li>  Take CSV template from  /src/main/resources  </li>
   <li>  curl --location --request POST 'http://localhost:8080/books/uploadBooks' \
 --header 'Accept: application/json' \
