@@ -26,16 +26,10 @@
 </li>
   <li> Access swagger from  </li>
   <li>  http://localhost:8080/swagger-ui/  </li>
-   
   <li> From swagger UI  access all CRUD APIS  </li>
-  **Curl requests to access APIS** 
-     <li>  curl -X GET "http://localhost:8080/books/123" -H "accept: */* "  </li>
-     <li>curl -X POST "http://localhost:8080/books/addBooks" -H "accept: */*" -H "Content-Type: application/json" -d "[ { \"author\": \"testpostauthor\", \"isbn\": 130, \"tags\": [ \"posttag\" ], \"title\": \"posttitle\" }]"  </li>
-     <li> curl -X PUT "http://localhost:8080/books/123" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"isbn\": 123, \"title\": \"testTile1updated\", \"author\": \"testauthor1\", \"tags\": [ \"tag1\" ]}" </li>
-     <li> curl -X DELETE "http://localhost:8080/books/123" -H "accept: */*" </li>
-     
-     
-     
-
-
-
+**Curl requests to access APIS** </br>
+  * [curl -X GET "http://localhost:8080/books/123" -H "accept: */* " ]
+  * [curl -X POST "http://localhost:8080/books/addBooks" -H "accept: */*" -H "Content-Type: application/json" -d "[ { \"author\": \"testpostauthor\", \"isbn\": 130, \"tags\": [ \"posttag\" ], \"title\": \"posttitle\" }]" ]
+  * [curl -X PUT "http://localhost:8080/books/123" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"isbn\": 123, \"title\": \"testTile1updated\", \"author\": \"testauthor1\", \"tags\": [ \"tag1\" ]}"]
+  * [curl -X DELETE "http://localhost:8080/books/123" -H "accept: */*"  ]
+  
