@@ -31,36 +31,17 @@ public class BookController {
 	@Autowired
 	private BooksService booksService;
 
-	/**
-	 * Method used to upload using CSV file
-	 * 
-	 * @param file
-	 * @return
-	 */
 	@PostMapping("/uploadBooks")
 	public String uploadCSV(@RequestParam("file") MultipartFile file) {
 		return booksService.uploadCSV(file);
 
 	}
 
-	/**
-	 * method used to get the book by using ISBN
-	 * 
-	 * @param isbn
-	 * @return
-	 */
 	@GetMapping("/{isbn}")
 	public BookDTO getBookByIsbn(@PathVariable("isbn") long isbn) {
 		return booksService.getBookByIsbn(isbn);
 
 	}
-
-	/**
-	 * Method used to add list of books
-	 * 
-	 * @param books
-	 * @return
-	 */
 
 	@PostMapping("/addBooks")
 	public ResponseEntity<String> addBooks(@RequestBody List<BookDTO> bookDTOs) {
@@ -68,25 +49,11 @@ public class BookController {
 
 	}
 
-	/**
-	 * Method creates or updates the book
-	 * 
-	 * @param book
-	 * @param isbn
-	 * @return
-	 */
 	@PutMapping("/{isbn}")
 	public String updateBookById(@RequestBody BookDTO bookDTO, @PathVariable("isbn") long isbn) {
 		return booksService.updateBookById(bookDTO, isbn);
 
 	}
-
-	/**
-	 * Deletes the book using isbn
-	 * 
-	 * @param isbn
-	 * @return
-	 */
 
 	@DeleteMapping("/{isbn}")
 	public String deleteBookByIsbn(@PathVariable("isbn") long isbn) {

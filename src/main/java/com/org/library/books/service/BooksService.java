@@ -58,17 +58,7 @@ public class BooksService {
 	}
 
 	public List<BookDTO> searchBooks(Long isbn, String author, String title, String tags) {
-		
-
-		/*
-		 * return BookMapper .convertEntityToDTO(bookRepository
-		 * .findAll(BookSpecifications.hasAuthor(author).or(BookSpecifications.hasTags(
-		 * tags))));
-		 * 
-		 */
-
-		return BookMapper
-				.convertEntityToDTO(bookRepository.findAllBooksAND(isbn, author, title, tags));
+		return BookMapper.convertEntityToDTO(bookRepository.findAllBooks(isbn, author, title, tags));
 
 	}
 
