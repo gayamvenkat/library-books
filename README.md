@@ -28,9 +28,9 @@
    <li> FROM swagger UI  access all CRUD APIS  </li>
   
   **Curl request APIS **
-     ** GET  books by ISBN *
+      <li> <b> GET  books by ISBN </b>  </li>
      <li> curl -X GET "http://localhost:8080/books/123" -H "accept: */*" </li>
-     ** Add books **
+     <li> Add books **
      <li>curl -X POST "http://localhost:8080/books/addBooks" -H "accept: */*" -H "Content-Type: application/json" -d "[ { \"author\": \"testpostauthor\", \"isbn\": 130, \"tags\": [ \"posttag\" ], \"title\": \"posttitle\" }]"  </li>
      ** Updated book **
      <li> curl -X PUT "http://localhost:8080/books/123" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"isbn\": 123, \"title\": \"testTile1updated\", \"author\": \"testauthor1\", \"tags\": [ \"tag1\" ]}" </li>
