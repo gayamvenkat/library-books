@@ -17,11 +17,12 @@
   
 
 **Run Project**
-
   <li>   Build maven project e.g mvn clean install </li>
   <li>   Run the project using  java -jar target/books-0.0.1-SNAPSHOT.jar  </li>
   <li>  To run from any IDE , Run as  spring boot application  </li>
+  
 **Access APIS**
+
    <li> Access swagger from [http://localhost:8080/swagger-ui/]  </li>
   <li>  Take CSV template (book.csv) from  /src/main/resources  to upload books  </li>
   
