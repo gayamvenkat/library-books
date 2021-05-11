@@ -1,12 +1,12 @@
 # project to manage books in a library.
-**CRUD application made with Spring Boot** 
+**CRUD library application made with Spring Boot to maintain books ** 
     <li>  JDK 8 </li>
     <li> Sring boot 2.4.5 </li>
     <li> spring boot data JPA</li>
     <li>  h2database </li>
     <li> projectlombok </li>
     <li> commons-csv </li>
-     <li>  Swagger-springfox </li>
+    <li> Swagger-springfox </li>
     
 
 # 1) Clone or download the project from 
@@ -20,10 +20,12 @@
   <li>  curl --location --request POST 'http://localhost:8080/books/uploadBooks' \
 --header 'Accept: application/json' \
 --header 'Content-Type: multipart/form-data' \
---form 'file=@"<CSV location>"'
+--form 'file=@"CSV location"'
 </li>
     
   <li> Access swagger from http://localhost:8080/swagger-ui/ </li>
+  
+   <li> Access swagger from http://localhost:8080/swagger-ui/ </li>
   
 
   
