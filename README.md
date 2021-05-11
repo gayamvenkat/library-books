@@ -29,14 +29,17 @@
    <li> From swagger UI  access all CRUD APIS  </li>
   
 **Curl requests to access APIS**
- 
-  * [curl -X GET "http://localhost:8080/books/123" -H "accept:*/* " ]()
+ <p>
+  curl -X GET "http://localhost:8080/books/123" -H "accept:*/* "
   
-  * [curl -X POST "http://localhost:8080/books/addBooks" -H "accept:*/*" -H "Content-Type: application/json" -d "[ { \"author\": \"testpostauthor\", \"isbn\": 130, \"tags\": [ \"posttag\" ], \"title\": \"posttitle\" }]" ]()
-  * [curl -X PUT "http://localhost:8080/books/123" -H "accept:*/*" -H "Content-Type: application/json" -d "{ \"isbn\": 123, \"title\": \"testTile1updated\", \"author\": \"testauthor1\", \"tags\": [ \"tag1\" ]}"]()
-  * [curl -X DELETE "http://localhost:8080/books/123" -H "accept: */*"  ]()
-  * [ curl --location --request POST 'http://localhost:8080/books/uploadBooks' \
+  curl -X POST "http://localhost:8080/books/addBooks" -H "accept:*/*" -H "Content-Type: application/json" -d "[ { \"author\": \"testpostauthor\", \"isbn\": 130, \"tags\": [ \"posttag\" ], \"title\": \"posttitle\" }]"
+  
+  curl -X PUT "http://localhost:8080/books/123" -H "accept:*/*" -H "Content-Type: application/json" -d "{ \"isbn\": 123, \"title\": \"testTile1updated\", \"author\": \"testauthor1\", \"tags\": [ \"tag1\" ]}"
+  curl -X DELETE "http://localhost:8080/books/123" -H "accept: */*"
+  
+  curl --location --request POST 'http://localhost:8080/books/uploadBooks' \
 --header 'Accept: application/json' \
 --header 'Content-Type: multipart/form-data' \
---form 'file=@"CSV location"']()
+--form 'file=@"CSV location"'   </p>
+
   
