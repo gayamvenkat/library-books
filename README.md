@@ -9,10 +9,10 @@
      <li>  Swagger-springfox </li>
     
 
-# 1) clone or download the project from 
+# 1) Clone or download the project from 
  https://github.com/gayamvenkat/library-books.git
 
-# 2)Import project into eclipse
-   File -> Import -> Maven -> Existing Maven Projects -> Browse Project from cloned location
+**Import project into eclipse**
+  <li>  File -> Import -> Maven -> Existing Maven Projects -> Browse Project from cloned location </li>
 
 
