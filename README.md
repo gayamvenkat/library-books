@@ -27,25 +27,17 @@
   <li> Access swagger from http://localhost:8080/swagger-ui/ </li>
    <li> FROM swagger UI  access all CRUD APIS  </li>
   
-  **Curl request APIS **
-      <li> <b> GET  books by ISBN </b>  </li>
+   <li> <b> Curl request APIS </b>  </li>
+      <li>  GET  books by ISBN   </li>
      <li> curl -X GET "http://localhost:8080/books/123" -H "accept: */*" </li>
-     <li> Add books **
+     <li> Add books </li>
      <li>curl -X POST "http://localhost:8080/books/addBooks" -H "accept: */*" -H "Content-Type: application/json" -d "[ { \"author\": \"testpostauthor\", \"isbn\": 130, \"tags\": [ \"posttag\" ], \"title\": \"posttitle\" }]"  </li>
-     ** Updated book **
+     <li> Updated book </li>
      <li> curl -X PUT "http://localhost:8080/books/123" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"isbn\": 123, \"title\": \"testTile1updated\", \"author\": \"testauthor1\", \"tags\": [ \"tag1\" ]}" </li>
-     ** Delete book by ISBN **
+     <li> Delete book by ISBN </li>
      <li> curl -X DELETE "http://localhost:8080/books/123" -H "accept: */*" <li>
      
-     
-     
 
-  
-
-  
- 
-  
-  
 
 
 
