@@ -9,26 +9,14 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 
-import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
-import lombok.experimental.FieldDefaults;
-
-/*@Entity
-@Data
-@AllArgsConstructor
-@NoArgsConstructor*/
 
 @Entity
-@FieldDefaults(level = AccessLevel.PRIVATE)
-@NoArgsConstructor
+@Data
 @AllArgsConstructor
-@Getter
-@Builder
-@ToString
+@NoArgsConstructor
 public class Book {
 	@Id
 	private long isbn;
