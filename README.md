@@ -1,5 +1,5 @@
 # project to manage books in a library.
-**CRUD application made with Spring Boot to maintain books in library  ** 
+ **CRUD application made with Spring Boot to maintain books in library** 
     <li>  JDK 8 </li>
     <li> Sring boot 2.4.5 </li>
     <li> spring boot data JPA</li>
@@ -9,7 +9,7 @@
     <li> Swagger-springfox </li>
     
 
-# 1) Clone or download the project from 
+ **Clone or download the project from**
  https://github.com/gayamvenkat/library-books.git
 
 **Import project into IDE**
