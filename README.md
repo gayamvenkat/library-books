@@ -1,5 +1,5 @@
 # project to manage books in a library.
-**CRUD library application made with Spring Boot to maintain books ** 
+**CRUD application made with Spring Boot to maintain books in library  ** 
     <li>  JDK 8 </li>
     <li> Sring boot 2.4.5 </li>
     <li> spring boot data JPA</li>
