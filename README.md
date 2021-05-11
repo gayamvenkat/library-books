@@ -25,7 +25,7 @@
     
   <li> Access swagger from http://localhost:8080/swagger-ui/ </li>
   
-   <li> Access swagger from http://localhost:8080/swagger-ui/ </li>
+   <li> FROM swagger UI  access all CRUD APIS  </li>
   
 
   
