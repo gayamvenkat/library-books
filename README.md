@@ -24,10 +24,10 @@
 --header 'Content-Type: multipart/form-data' \
 --form 'file=@"CSV location"'
 </li>
-  <li> Access swagger from http://localhost:8080/swagger-ui/ </li>
-   <li> FROM swagger UI  access all CRUD APIS  </li>
-  
-  
+  <li> Access swagger from  </li>
+  <li>  http://localhost:8080/swagger-ui/  </li>
+   
+  <li> From swagger UI  access all CRUD APIS  </li>
   **Curl requests to access APIS** 
      <li>  curl -X GET "http://localhost:8080/books/123" -H "accept: */* "  </li>
      <li>curl -X POST "http://localhost:8080/books/addBooks" -H "accept: */*" -H "Content-Type: application/json" -d "[ { \"author\": \"testpostauthor\", \"isbn\": 130, \"tags\": [ \"posttag\" ], \"title\": \"posttitle\" }]"  </li>
