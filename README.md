@@ -45,3 +45,6 @@
 --form 'file=@"CSV location"'   </p>
 
   
+**Junits**
+<li> Added integration test cases </li>
+<li> wrote  tests using the mocking approach (spring mockMVC). </li>
