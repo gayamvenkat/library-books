@@ -23,7 +23,7 @@
   
 **Access APIS**
 
-   <li> Access swagger from [http://localhost:8080/swagger-ui/]  </li>
+   <li> Access swagger from http://localhost:8080/swagger-ui/  </li>
    <li>  Take CSV template (book.csv) from  /src/main/resources  to upload books  </li>
   
    <li> From swagger UI  access all CRUD APIS  </li>
